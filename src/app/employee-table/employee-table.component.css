@@ -1,0 +1,65 @@
+.container {
+  margin: 50px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.add-button {
+  margin: 20px 0;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.form-field{
+  width: 100%;
+}
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 60px 0;
+}
+
+.mat-elevation-z8 {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #ebeef2;
+}
+
+.mat-header-cell {
+  background-color: #2c3e50;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+  text-align: center;
+}
+
+
+.sumbit_button{
+  padding: 27px 10px;
+  font-size: 16px;
+}
